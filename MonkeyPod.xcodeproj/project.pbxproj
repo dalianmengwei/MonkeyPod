@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C4724D11F30B2FE00682D12 /* MonkeyPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8C4724D01F30B2FE00682D12 /* MonkeyPod.podspec */; };
 		8C4724D41F30B2FE00682D12 /* CaptainHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4724D31F30B2FE00682D12 /* CaptainHook.h */; };
 		8C4724D61F30B2FE00682D12 /* MonkeyPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4724D51F30B2FE00682D12 /* MonkeyPod.m */; };
 		8C4724D81F30B2FE00682D12 /* MonkeyPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4724CF1F30B2FE00682D12 /* MonkeyPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE57B4481F46E668004CD03A /* MonkeyPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CE57B4471F46E668004CD03A /* MonkeyPod.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C4724CC1F30B2FE00682D12 /* MonkeyPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MonkeyPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4724CF1F30B2FE00682D12 /* MonkeyPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonkeyPod.h; sourceTree = "<group>"; };
-		8C4724D01F30B2FE00682D12 /* MonkeyPod.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MonkeyPod.podspec; sourceTree = "<group>"; };
 		8C4724D31F30B2FE00682D12 /* CaptainHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CaptainHook.h; path = CaptainHook/CaptainHook.h; sourceTree = "<group>"; };
 		8C4724D51F30B2FE00682D12 /* MonkeyPod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonkeyPod.m; sourceTree = "<group>"; };
 		8C4724D71F30B2FE00682D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE57B4471F46E668004CD03A /* MonkeyPod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MonkeyPod.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 		8C4724CE1F30B2FE00682D12 /* MonkeyPod */ = {
 			isa = PBXGroup;
 			children = (
+				CE57B4471F46E668004CD03A /* MonkeyPod.podspec */,
 				8C4724CF1F30B2FE00682D12 /* MonkeyPod.h */,
-				8C4724D01F30B2FE00682D12 /* MonkeyPod.podspec */,
 				8C4724D51F30B2FE00682D12 /* MonkeyPod.m */,
 				8C4724D71F30B2FE00682D12 /* Info.plist */,
 				8C4724D21F30B2FE00682D12 /* CaptainHook */,
@@ -138,7 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C4724D11F30B2FE00682D12 /* MonkeyPod.podspec in Resources */,
+				CE57B4481F46E668004CD03A /* MonkeyPod.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +319,7 @@
 				8C4724DD1F30B2FE00682D12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
